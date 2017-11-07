@@ -1,5 +1,5 @@
 
-Customer x.x.x.74-77 — vyatta 169.61.124.165 ===tunnel=== y.y.y.1 Cisco ASR1002 — clients z.z.z.32&35 | tun50 z.z.z.32 & 35
+Customer x.x.x.74-77 — vyatta v.v.v.165 ===tunnel=== y.y.y.1 Cisco ASR1002 — clients z.z.z.32&35 | tun50 z.z.z.32 & 35
 
 ### Set the loopback
 set interfaces loopback lo address '169.254.1.1/24'	### RFC 1918 address for local loopback
