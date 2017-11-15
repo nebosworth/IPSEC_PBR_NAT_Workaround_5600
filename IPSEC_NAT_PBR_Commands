@@ -103,6 +103,8 @@ set protocols static table 50 interface-route 0.0.0.0/0 next-hop-interface 'tun5
 set protocols static interface-route z.z.z.35/32 next-hop-interface 'tun50'
 set protocols static table 50 interface-route 0.0.0.0/0 next-hop-interface 'tun50'
 
+set protocols static interface-route x.x.x.74 next-hop-interface 'tun50'
+
 ### policy based routes for z.z.z.32
 set policy route pbr Backwards-DNAT description 'Get return traffic back to tunnel for DNAT'
 set policy route pbr Backwards-DNAT rule 10 action 'accept'
